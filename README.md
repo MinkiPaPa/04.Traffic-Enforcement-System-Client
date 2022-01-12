@@ -34,5 +34,14 @@ Code by MinkiPaPa.
      ![image](https://user-images.githubusercontent.com/97417837/149053582-7aa8e4ab-242c-4497-9555-97105cf8d33a.png)
      ![image](https://user-images.githubusercontent.com/97417837/149053601-17580737-6f65-4eb6-950a-6dec6f89e0ac.png)
 
+4. Develop Labguage
+   - TBOS ( 구 iTops )에서는 VS6.0 C++과 WTL 기반의 GUI 프로그래밍으로 작업이 되어있었음
+   - iTops 개발을 기획하고 진행하면서 언어 및 외부 라이브러리에 대한 선정은 아래와 같이 진행하였음
+     - 개발 언어 : C#
+       - 선정 이유 : 기존의 TBOS의 일부 C++ 언어 구문을 호환하며 승계 및 차후 남아공 현지에서 C++ 개발자보다 C# 개발자의 수급이 원활할 것으로 예측하여 개발 언어로 C#을 선정함
+       - 이후 계획 : C# 첫 프로젝트였기 때문에 기존의 문법적 표현이 C++에 많이 가깝게 개발이 되었으며 현지의 상황이 기획 시기때 예측과는 다르데 C++, C# 개발자 모두 적정 개발 능력을 보유한 개발자의 수급이 원활하지 않을 것으로 예상되어 이 후 차기버전은 보다 개발리소스 확보에 유리한 개발언어로 개발해야할 수 있다는 부담감이 있음
+     - 외부 프레임워크, 라이브러리 : Infragistics , LTI Trucam II SDK , OpenALPR
+       - 선정 이유 : 참여 개발자들이 Infragistics 활용한 개발의 경험이 있었고 OpenALPR 라이브러리는 데이터 Import PC가 지정된 PC였기 때문에 On-Ppromise $600의 저렴한 비용으로 활용가능한 남아프리카공화국 번호판 데이터를 포함한 상용 라이브러리여서 선정함.
+       - 이후 계획 : 이후 개발자들이 선호하는 외부 라이브러리로 변경 적용 가능성 열어둠 ( 예 : QT )
 
 
