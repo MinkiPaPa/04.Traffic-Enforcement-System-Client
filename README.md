@@ -34,7 +34,7 @@ Code by MinkiPaPa.
      ![image](https://user-images.githubusercontent.com/97417837/149053582-7aa8e4ab-242c-4497-9555-97105cf8d33a.png)
      ![image](https://user-images.githubusercontent.com/97417837/149053601-17580737-6f65-4eb6-950a-6dec6f89e0ac.png)
 
-# 4. Develop Labguage
+# 4. Develop Language
    - TBOS ( 구버전 )에서는 VS6.0 C++과 WTL 기반의 GUI 프로그래밍으로 작업이 되어있었음
    - 개발을 기획하고 진행하면서 언어 및 외부 라이브러리에 대한 선정은 아래와 같이 진행하였음
      - 개발 언어 : C#
@@ -43,3 +43,10 @@ Code by MinkiPaPa.
      - 외부 프레임워크, 라이브러리 : Infragistics , LTI Trucam II SDK , OpenALPR
        - 선정 이유 : 참여 개발자들이 Infragistics 활용한 개발의 경험이 있었고 OpenALPR 라이브러리는 데이터 Import PC가 지정된 PC였기 때문에 On-Ppromise $600의 저렴한 비용으로 활용가능한 남아프리카공화국 번호판 데이터를 포함한 상용 라이브러리여서 선정함.
        - 이후 계획 : 이후 개발자들이 선호하는 외부 라이브러리로 변경 적용 가능성 열어둠 ( 예 : QT )
+
+# 5. Appendix - Reference
+    - TruCan II SDK
+    [TruCam2 SDK v1.11 (x32_x64).zip](https://github.com/MinkiPaPa/04.Traffic-Enforcement-System-Client/files/7851505/TruCam2.SDK.v1.11.x32_x64.zip)
+
+    - South Africa Traffic Law Office Book
+
