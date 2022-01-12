@@ -34,7 +34,31 @@ Code by MinkiPaPa.
      ![image](https://user-images.githubusercontent.com/97417837/149053582-7aa8e4ab-242c-4497-9555-97105cf8d33a.png)
      ![image](https://user-images.githubusercontent.com/97417837/149053601-17580737-6f65-4eb6-950a-6dec6f89e0ac.png)
 
-# 4. Develop Language
+# 4. Module Architect
+   |Module|Content|Type|Derendence|Status|
+   |---|---|---|---|---|
+   |iTopsMain|Main Program|exe|iTopsLib|완료|
+   |iTopsUpRGLTN|단속 영상에서 Plate 추출 및 판독, 업로드|exe|iTopsLib, UseLibALPR, UseLibLTI|완료|
+   |iTopsDistribute|검수 담당자 지정|exe|iTopsLib|완료|
+   |iTopsInspection|단속 내용 검수|exe|iTopsLib|완료|
+   |iTopsMngOffenceCd|Offence Code 관리|exe|iTopsLib|완료|
+   |iTopsMngLocationMap|Location와 Offence Code Mapping|exe|iTopsLib|완료|
+   |iTopsCdMaster|Code Master 관리|exe|iTopsLib|예정|
+   |iTopsUser|사용자 관리|exe|iTopsLib|완료|
+   |iTopsMngLocationCd|Location Code 관리|exe|iTopsLib|완료|
+   |iTopsLib|iTops 공통 라이브러리|dll|iTopsFTP, DBLibUpRGLTN, DBLibMngOffenceCd, DBCodes DBLibMngLocationMap, DBLibInspection, DBLibDistribute|완료|
+   |iTopsFTP|Ftp 라이브러리|dll|N/A|완료|
+   |AlprNet|OpenALPR 외부 라이브러리를 활용한 번호판 판독|dll|N/A|외부 라이브러리 활용, 완료|
+   |VehicleClassifierNet|OpenALPR 외부 라이브러리를 활용한 차량 정보 추출|dll|N/A|외부 라이브러리 활용, 완료|
+   |UseLibALPR|Alpr SDK 제어|dll|AlprNet, VehicleClassifierNet|완료|
+   |UseLibLTI|LTI 장비의 단속 Data 추출 SDK활용|dll|N/A|완료|
+   |LibMngOffenceCd|iTopsMngOffenceCd.exe의 Data 처리 라이브러리|dll|N/A|완료|
+   |DBLibMngLocationMap|iTopsMngLocationMap.exe의 Data 처리 라이브러리|dll|N/A|완료|
+   |DBLibInspection|iTopsInspection.exe의 Data 처리 라이브러리|dll|N/A|완료|
+   |DBLibDistribute|iTopsDistribute.exe 의 Data 처리 라이브러리|dll|N/A|완료|
+   |DBCodes|Code Master 및 각종 코드 테이블 조회 라이브러리|dll|N/A|완료|
+
+# 5. Develop Language
    - TBOS ( 구버전 )에서는 VS6.0 C++과 WTL 기반의 GUI 프로그래밍으로 작업이 되어있었음
    - 개발을 기획하고 진행하면서 언어 및 외부 라이브러리에 대한 선정은 아래와 같이 진행하였음
      - 개발 언어 : C#
@@ -44,6 +68,6 @@ Code by MinkiPaPa.
        - 선정 이유 : 참여 개발자들이 Infragistics 활용한 개발의 경험이 있었고 OpenALPR 라이브러리는 데이터 Import PC가 지정된 PC였기 때문에 On-Promise $600의 저렴한 비용으로 활용가능한 남아프리카공화국 번호판 데이터를 포함한 상용 라이브러리여서 선정함.
        - 이후 계획 : 이후 개발자들이 선호하는 외부 라이브러리로 변경 적용 가능성 열어둠 ( 예 : QT )
 
-# 5. Appendix - Reference
+# 6. Appendix - Reference
    - South Africa Traffic Law Office Book
      - [TRAFFIC LAW OFFENCE BOOK 2014 FINAL.pdf](https://github.com/MinkiPaPa/04.Traffic-Enforcement-System-Client/files/7851510/TRAFFIC.LAW.OFFENCE.BOOK.2014.FINAL.pdf)
