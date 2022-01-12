@@ -1,7 +1,5 @@
 # Traffic/Speed Enforcement System Client
-iTops client program source code
-
-Code by MinkiPaPa.
+Author, Code by MinkiPaPa.
 
 # 1. Project Objective
    - 프로젝트 수행 기간 : 2019년 5월 1일 ~ 2019년 10월 30일
