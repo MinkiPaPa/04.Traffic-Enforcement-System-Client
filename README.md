@@ -31,6 +31,21 @@ Author, Code by MinkiPaPa.
 
      ![image](https://user-images.githubusercontent.com/97417837/149053582-7aa8e4ab-242c-4497-9555-97105cf8d33a.png)
      ![image](https://user-images.githubusercontent.com/97417837/149053601-17580737-6f65-4eb6-950a-6dec6f89e0ac.png)
+     
+     |DB table name|Content|Status|
+     |---|---|---|
+     |CODE_GROUP|코드 그룹 분류,관리|완료|
+     |CODE_MASTER|그룹화된 세부 코드 분류,관리|완료|
+     |PERSONS|단속차량 인적 정보|완료|
+     |USERS|교통경찰, 시경 접속 사용자 정보|완료|
+     |REGULATIONS|단속 정보 데이터|완료|
+     |OFFENCES|단속 정보 검수 데이터|완료|
+     |VEHICLE_MAKE|단속 차량 메이커 정보|완료|
+     |VEHICLE_TYPE|단속 차량 타잎 정보|완료|
+     |OFFENCE_CODE|단속 위반 코드 관리|완료|
+     |LOCATION_CODE|단속 도로 및 위치 코드 관리|완료|
+     |LOCATION_MAP|단독 도로,위치와 위반코드 맵핑 데이터|완료|
+     |CONTRAVENTIONS|단속 위반 데이터|완료|
 
 # 4. Module Architect
    |Module|Content|Type|Derendence|Status|
