@@ -3,7 +3,7 @@ iTops client program source code
 
 Code by MinkiPaPa.
 
-1. Project Objective
+# 1. Project Objective
    - 프로젝트 수행 기간 : 2019년 5월 1일 ~ 2019년 10월 30일
    - 프로젝트 참여 인력 : PMO 1 , Dev 2
    - 프로젝트 수행 목표
@@ -12,10 +12,10 @@ Code by MinkiPaPa.
       - 남아공 eNaTis ( National Traffic Information System )과 데이터 연동
       - 시스템이 적용되는 각 도시별 결제 이력 연동을 위한 ERP 연동
    
-2. Solution Process Diagram
+# 2. Solution Process Diagram
 ![image](https://user-images.githubusercontent.com/97417837/149051915-aaedd548-14dd-4596-90d7-bb174409529c.png)
 
-3. DataBase Structure
+# 3. DataBase Structure
    - 기존의 TBOS ( 구버전 iTops )의 데이터베이스가 MSSQL 기반으로 되어있어 기존의 데이터 호환 관계를 유지하기위하여
       MSSQL을 기본 데이터베이스로 선정
    - 비지니스를 제공하는 남아프리카공화국의 각 시도별 교통경찰서, 시경에 MS Azure 클라우드 서비스를 MS와 계약하여 제공받고 있는 상황으로
@@ -34,7 +34,7 @@ Code by MinkiPaPa.
      ![image](https://user-images.githubusercontent.com/97417837/149053582-7aa8e4ab-242c-4497-9555-97105cf8d33a.png)
      ![image](https://user-images.githubusercontent.com/97417837/149053601-17580737-6f65-4eb6-950a-6dec6f89e0ac.png)
 
-4. Develop Labguage
+# 4. Develop Labguage
    - TBOS ( 구 iTops )에서는 VS6.0 C++과 WTL 기반의 GUI 프로그래밍으로 작업이 되어있었음
    - iTops 개발을 기획하고 진행하면서 언어 및 외부 라이브러리에 대한 선정은 아래와 같이 진행하였음
      - 개발 언어 : C#
@@ -43,5 +43,3 @@ Code by MinkiPaPa.
      - 외부 프레임워크, 라이브러리 : Infragistics , LTI Trucam II SDK , OpenALPR
        - 선정 이유 : 참여 개발자들이 Infragistics 활용한 개발의 경험이 있었고 OpenALPR 라이브러리는 데이터 Import PC가 지정된 PC였기 때문에 On-Ppromise $600의 저렴한 비용으로 활용가능한 남아프리카공화국 번호판 데이터를 포함한 상용 라이브러리여서 선정함.
        - 이후 계획 : 이후 개발자들이 선호하는 외부 라이브러리로 변경 적용 가능성 열어둠 ( 예 : QT )
-
-
