@@ -5,7 +5,7 @@ Code by MinkiPaPa.
 
 # 1. Project Objective
    - 프로젝트 수행 기간 : 2019년 5월 1일 ~ 2019년 10월 30일
-   - 프로젝트 참여 인력 : PMO 1 , Dev 2
+   - 프로젝트 참여 인력 : PMO 1 , Dev 2 ( Client, Server 개발 )
    - 프로젝트 수행 목표
       - 수동 단속 프로세스의 자동화
       - 자동차 번호판 인식 기능의 적용 ( OpenALPR 적용 )
